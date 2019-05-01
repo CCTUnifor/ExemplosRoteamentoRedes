@@ -1,0 +1,28 @@
+May 01 08:19:40.253 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 01 08:19:40.254 HYPERVISOR: Started on IP = 192.168.25.11, TCP port = 61601.
+May 01 08:19:40.735 HYPERVISOR: exec_cmd: hypervisor version 
+May 01 08:19:40.736 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\thiag\GNS3\projects\redes\project-files\dynamips 
+May 01 08:19:40.736 GENERAL: working_dir=C:\Users\thiag\GNS3\projects\redes\project-files\dynamips
+May 01 08:19:40.736 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\thiag\GNS3\projects\redes\project-files\dynamips\56177acb-5dc8-4581-84e4-09fe0d87ecd5 
+May 01 08:19:40.740 GENERAL: working_dir=C:\Users\thiag\GNS3\projects\redes\project-files\dynamips\56177acb-5dc8-4581-84e4-09fe0d87ecd5
+May 01 08:19:40.740 HYPERVISOR: exec_cmd: vm create R6 2 c2691 
+May 01 08:19:40.743 VM: VM R6 created.
+May 01 08:19:40.743 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5001 
+May 01 08:19:40.743 HYPERVISOR: exec_cmd: c2691 get_mac_addr R6 
+May 01 08:19:40.744 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+May 01 08:19:40.744 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+May 01 08:19:40.745 HYPERVISOR: exec_cmd: vm get_status R6 
+May 01 08:19:40.745 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60b6add4 
+May 01 08:19:40.746 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/thiag/GNS3/images/IOS/c2691-advipservicesk9-mz.124-15.T6.image 
+May 01 08:19:40.747 HYPERVISOR: exec_cmd: c2691 set_mac_addr R6 c002.2994.0000 
+May 01 08:19:40.747 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+May 01 08:19:40.747 HYPERVISOR: exec_cmd: vm set_ram R6 256 
+May 01 08:19:40.748 HYPERVISOR: exec_cmd: vm get_status R6 
+May 01 08:19:40.748 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-4T 
+May 01 08:19:40.748 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-1T 
+May 01 08:19:42.771 HYPERVISOR: exec_cmd: nio create_udp udp-5f1d5af2-3270-4ed4-929d-43a301b44e90 10004 127.0.0.1 10005 
+May 01 08:19:43.038 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-5f1d5af2-3270-4ed4-929d-43a301b44e90 
+May 01 08:19:43.038 HYPERVISOR: exec_cmd: vm get_status R6 
+May 01 08:19:44.138 HYPERVISOR: exec_cmd: nio create_udp udp-c85fd24e-1bab-452e-bbf0-aaeb6d25ea17 10034 127.0.0.1 10035 
+May 01 08:19:44.140 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 1 udp-c85fd24e-1bab-452e-bbf0-aaeb6d25ea17 
+May 01 08:19:44.141 HYPERVISOR: exec_cmd: vm get_status R6 

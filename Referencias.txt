@@ -1,0 +1,6 @@
+REFERENCIAS
+https://www.youtube.com/watch?v=viQ6wkfFGxU - como instalar GNS3
+https://cfn.cloudapps.cisco.com/ITDIT/CFN/jsp/SearchBySoftware.jsp - saber a memoria minima do router
+https://www.youtube.com/watch?v=Kr7y6R4nOyc - como configurar uma RIP no GNS3
+https://www.youtube.com/watch?v=YcTY125f0cM - Simple RIP Configuration Using GNS3 (CISCO Routers)
+https://www.youtube.com/watch?v=I-yLCWuxJSs - Basic RIP routing on GNS3

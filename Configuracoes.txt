@@ -18,7 +18,7 @@ show ip route
 R1#conf t
 R1(config)#int f0/0
 R1(config-if)#no shut
-R1(config-if)#ip address 192.172.0.2 255.255.255.252
+R1(config-if)#ip address 192.172.0.1 255.255.255.252
 R1(config-if)#end
 
 ** s1/0
@@ -77,6 +77,13 @@ R1(config-router)#network 10.0.0.8
 R1(config-router)#network 10.0.0.12
 
 #####Router3
+** f0/0
+R3#conf t
+R3(config)#int f0/0
+R3(config-if)#no shut
+R3(config-if)#ip addres 192.172.1.1 255.255.255.252
+R3(config-if)#end
+
 ** s1/0
 R1#conf t
 R1(config)#int s1/0
@@ -98,6 +105,7 @@ R1(config-router)#version 2
 R1(config-router)#no auto-summary
 R1(config-router)#network 10.0.0.8
 R1(config-router)#network 10.0.0.16
+R1(config-router)#network 192.172.1.0
 
 #####Router5
 ** s1/0

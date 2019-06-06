@@ -1,0 +1,4 @@
+* Criar um arquivo *.sh
+* primeira linha de código #!/bin/bash
+* marcar o arquivo como executável: chmod +x *.sh
+* executar: ./*.sh

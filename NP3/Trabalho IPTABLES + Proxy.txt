@@ -1,0 +1,16 @@
+﻿Trabalho IPTABLES + Proxy
+
+
+* Criar Shell Script inicializável:
+* Firewall restritivo
+* Compartilhar internet via NAT
+* Bloqueie sites, via IPTABLES, através do endereço IP
+* Negue qualquer solicitação de ping originada na rede externa
+* Redirecionar a porta 90 para a porta 3180
+* Configurar Proxy Cache (SQUID)
+* Realizar cache HTTp
+* Bloquear acesso à internet via lista negra de palavras
+* Bloquear acesso à internet por horário
+* DHCP
+* Configurar Sub Rede 192.168.<104>.0/24
+* Atribuir estaticamente o endereço IP 192.168.<104>.1 a um computador
